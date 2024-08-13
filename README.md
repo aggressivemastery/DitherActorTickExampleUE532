@@ -3,6 +3,7 @@ UNREAL ENGINE 5.3.2 BLUEPRINT ACTOR DITHERING TICK MANAGER EXAMPLE BY GAMEDEV MI
 Within is a free to use and re-use (please provide credit to me, Micah Berninghausen, when able.) Notes within Blueprints.
 Any questions please reach out to me via Linkedin, Twitter or Youtube. @GAMEDEVMICAH and GameDevMicah@Gmail.com 
 In-EDITOR / Non-Shipping Builds : Enable STAT FPS / STAT UNIT to see impacts via CONSOLE ~ 
+TWO LEVELS : "DitherActorTick" and "DitherActorTickNiagara" exists in the MAPS sub folders
 
 Actions/EVENTS are the work that the Unreal Engine or any Game Engine has to do with the CPU. In this example, we take 11,000 actors and instead of ticking each actor every frame, we use a manager to tick a subset each frame until they are all touched. 
 Doing so allows us to limit the work done each frame, at the cost actors being ticked/called/action less often. 
