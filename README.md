@@ -7,7 +7,7 @@ In-EDITOR / Non-Shipping Builds : Enable STAT FPS / STAT UNIT to see impacts via
 Actions/EVENTS are the work that the Unreal Engine or any Game Engine has to do with the CPU. In this example, we take 11,000 actors and instead of ticking each actor every frame, we use a manager to tick a subset each frame until they are all touched. 
 Doing so allows us to limit the work done each frame, at the cost actors being ticked/called/action less often. 
 
-This example could be improved, by adding ranged-based tick prefference or actor based perfference to give actor types or ranges additional ticks per loop. 
+This example could be improved, by adding ranged-based tick preference or actor based preference to give actor types or ranges additional ticks per loop. 
 
 The Niagara Example shows the use of Effect Types for distance activation of niagara systems. 
 We are also passing data to niaraga for particle color, but our hue math is off. 
